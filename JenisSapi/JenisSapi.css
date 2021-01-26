@@ -1,0 +1,53 @@
+aside {
+				width: 340px;
+				float: left;
+				padding: 5px;
+                padding-top: 5px;
+}
+
+aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+				/* color: #985d6a; */
+				color: black;
+				/* background-color: #efefef; */
+				background: rgba(210, 105, 30,0.8);
+				font-weight: bold;
+}
+a {
+				color: #DC143C;
+				text-decoration: none;
+				font-size : 11pt
+}
+aside h2 {
+			padding: 30px 0px 10px 0px;
+			color: #A52A2A;
+}
+
+.par{
+
+	text-align : justify;
+	color : black;
+	padding : 10px;
+	text-indent: 0.5in;
+
+}
+
+#bgtransparan {
+	background: rgba(222,184,135,0.5);
+	text-align : center;
+}
+
+#bgtransparan1 {
+	background: rgba(225,225,225,0.5);
+	text-align : center;
+	padding : 10px;
+}
+
+#lengkung {
+	border-radius : 10px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Perhitungan Pakan Sapi</title>
+    <link rel="short icon" href="image/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="demo.css">
+  	<link rel="stylesheet" href="footer_1.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="Perhitungan_Pemasaran.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+         <li><a href="Beranda.html">BERANDA</a></li>
+         <li><a href="TentangSapi.html">TENTANG SAPI</a></li>
+         <li><a href="Perawatan.html">PERAWATAN</a></li>
+         <li><a href="Pemasaran.html">PEMASARAN</a></li>
+         <li><a href="Team.html">TEAM</a></li>
+         <li><a href="Komentar.html">KRITIK & SARAN</a></li>
+         <div class="demo-4 search">
+           <form>
+             <input type="search" id="search" placeholder="Search..." />
+             <button class="icon"><i class="fa fa-search"></i></button>
+           </form>
+         </div>
+       <!-- </li> -->
+      </ul>
+  </nav>
+  <br><br><br>
+  <h1 style="text-align:center ; color :black; font-family: Cambria; font-size: 30pt"><b>Perhitungan</b></h1>
+
+  <div id="bg">
+  	<center>
+  	<table >
+  		<tr>
+  			<td>
+  			<center>
+  			<font style="text-align: center; font-family:century Ghotic; font-size: 20pt; color :chocolate;"> <b>Keuntungan Pemasaran Sapi</b> </font><br><br>
+  			</center>
+  			</td>
+  		</tr>
+
+  		<tr>
+  		<center>
+  		<table>
+  		<tr>
+  		<td>Biaya Produksi</td>
+  		<td>
+  			<input type="number" id="Biaya" placeholder=" Angka" required="required">
+  		</td>
+  		</tr>
+  		<tr>
+  		<td>Total Pendapatan</td>
+  		<td>
+  			<input type="number" id="Pendapatan" placeholder=" Angka" required="required">
+  		</td>
+  		</tr>
+  		<tr>
+  		<td>Keuntungan</td>
+  		<td>
+  			<input type="text" id="Proses" disabled>
+  		</td>
+  		</tr>
+  		<tr>
+  		<center>
+  		<td>
+  		</td>
+  		<td style="text-align:right;" id="Proses"><br>
+  			<input type="button" value="Proses" onclick="hitung()" class="btn_per"></td>
+        <!-- <td><input type="button" value="Reset" onclick="hapus()" class="btn_per"></td> -->
+  		</center>
+  		</tr>
+
+  		</table>
+  		</center>
+  		</tr>
+  	</table>
+  	</center>
+  	</div>
+
+    <div id="bg1">
+      <center>
+      <table>
+        <tr>
+          <td>
+            <font style="text-align: center; font-family:century Ghotic; font-size: 24pt; color :chocolate;">
+              <b style="text-align: center">Penjelasan Rumus</b> </font>
+      </center>
+          </td>
+        </tr>
+
+        <tr height="10px">
+        </tr>
+        <tr>
+          <td>
+        <hr style="color: black; width: 100%;">
+          </td>
+        </tr>
+        <tr height="10px">
+
+        </tr>
+        <tr>
+          <td>Cara Menghitung Keuntungan Pemasaran Sapi </td>
+        </tr>
+        <tr>
+          <td>
+              <font style="text-align: center; font-family:century Ghotic; font-size: 15pt; color :chocolate;"> <b>Pendapatan - Biaya</b> </font>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <img src="image/logokata.png" width="350px" height="150px">
+      <p class="footer-links">
+        <a href="Beranda.html">Beranda</a>
+        ·
+        <a href="TentangSapi.html">Tentang Sapi</a>
+        ·
+        <a href="Perawatan.html">Perawatan</a>
+        ·
+        <a href="Pemasaran.html">Pemasaran</a>
+        ·
+        <a href="Team.html">Team</a>
+      </p>
+      <p class="footer-company-name">Peternakan Sapi &copy; 2018</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Kedung Baruk  No. 98</span> Surabaya, Jawa Timur</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+628 112 3341 94</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:Peternakan@gmail.com">Peternakan@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>Perternakan Sapi</span>
+        Web Perternakan sapi merupakan website yang menyediakan berbagai informasi tentang sapi.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  </body>
+</html>

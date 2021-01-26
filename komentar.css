@@ -1,0 +1,120 @@
+#formKomentar{
+    	background: rgba(255, 225, 225, 0.5);
+      border-radius: 8px;
+    	width:450px;
+    	padding:20px;
+      margin-top: 50px;
+      margin-bottom: auto;
+      margin-left : 450px;
+    }
+
+     input, textarea{
+     	padding: 10px;
+     	border:3px solid #e6e6e6;
+     	border-radius: 5px;
+     	margin-bottom: 15px;
+     }
+
+     input:focus, textarea:focus{
+     	border:3px solid #5E4F4F;
+     }
+
+     textarea{
+     	width:300px;
+
+     }
+
+    input[type="submit"]{
+    cursor: pointer;
+		background: -webkit-linear-gradient(top, #efefef, #ddd);
+		background: -moz-linear-gradient(top, #efefef, #ddd);
+		background: -ms-linear-gradient(top, #efefef, #ddd);
+		background: -o-linear-gradient(top, #efefef, #ddd);
+		background: linear-gradient(top, #efefef, #ddd);
+		color: #333;
+		text-shadow: 0px 1px 1px rgba(255,255,255,1);
+		border: 1px solid #ccc;
+     }
+
+    input[type="submit"]:hover {
+		background: -webkit-linear-gradient(top, #eee, #ccc);
+		background: -moz-linear-gradient(top, #eee, #ccc);
+		background: -ms-linear-gradient(top, #eee, #ccc);
+		background: -o-linear-gradient(top, #eee, #ccc);
+		background: linear-gradient(top, #eee, #ccc);
+		border: 1px solid #bbb;
+	}
+
+
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+.window  {
+	width: 400px;
+	height: 100px;
+	background: #ECF0F1;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px;
+	text-align: justify;
+	margin: 15% auto;
+}
+.window1 h2 {
+	margin: 30px 0 0 0;
+}
+
+
+.close-button {
+	width: 6%;
+	height: 20%;
+	line-height: 23px;
+	background: #F39C12;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popup:target {
+	visibility: visible;
+}
+
+.tombol{
+  height: 20px;
+  width: 100px;
+  padding : 20px;
+	background : #D35400;
+	color : white;
+	text-align : center;
+	transition :0.2 ease-in; /* ini untuk membuat hover transisinya lebih halus */
+	border-radius : 15px;
+	}
+
+.tombol:hover {
+	background :#E67E22;
+
+	}
+
+  a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #huruf {
+  	font-family : arial ;
+  	font-size : 12pt;
+  	color : white;
+  }
